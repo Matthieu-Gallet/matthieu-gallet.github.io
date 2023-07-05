@@ -21,7 +21,6 @@ nav_order: 1
 ### Conference proceedings 
 <div class="publications">
 {%- for y in page.year_conf %}
-<!--  -->
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @inproceedings[year={{y}}]* %}
 {% endfor %}
