@@ -13,18 +13,24 @@ nav_order: 1
 ### Journal articles
 <div class="publications">
 {%- for y in page.years %}
-  <h2 class="year">{{y}}</h2>
+  <!-- <h2 class="year">{{y}}</h2> -->
+<hr>
   {% bibliography -f papers -q @article[year={{y}}]* %}
 {% endfor %}
 </div>
 
+<br>
+
 ### Conference proceedings 
 <div class="publications">
+<hr>
 {%- for y in page.year_conf %}
-  <h2 class="year">{{y}}</h2>
+  <!-- <h2 class="year">{{y}}</h2> -->
   {% bibliography -f papers -q @inproceedings[year={{y}}]* %}
 {% endfor %}
 </div>
+
+<br>
 
 ### Datasets
 <div class="publications">
