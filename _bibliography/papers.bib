@@ -1,84 +1,73 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@article{gallet:hal-04075772,
+  abbr      = {TGRS},
+  title = {New Robust Sparse Convolutional Coding Inversion Algorithm for Ground Penetrating Radar Images},
+  author = {Gallet, Matthieu and Mian, Ammar and Ginolhac, Guillaume and Ollila, Esa and Stelzenmuller, Nickolas},
+  abstract    = {In this paper, we propose two algorithms to enhance the interpretability of the hyperbola in B-scans obtained with a Ground Penetrating Radar (GPR). These hyperbolas are the responses of buried objects or cavities. To correctly detect and classify them, a denoising is typically necessary for GPR images as the signal-to-noise ratio is low, and the various interfaces naturally present in the earth have a strong response. Both algorithms are based on a sparse convolutional coding model plus a low rank component. It is solved through an Alternating Direction Method of Multipliers (ADMM) framework. In order to take into account the presence of outliers and the artifacts caused by the acquisition, the second algorithm is based on the Huber norm instead of the classic L2 -norm. These algorithms are tested on a real dataset labeled by geophysicists. The results show the denoising efficiency of this approach, and in particular the robustness of the second algorithm. },
+  journal = {IEEE Transactions on Geoscience and Remote Sensing},
+  year = {2023},
+  doi = {10.1109/TGRS.2023.3268477},
+  keywords = {Ground Penetrating Radar ; Sparse Inversion ; Convolutive Model ; Robust methods ; Dictionaries ; Radar ; Signal to noise ratio ; Radar imaging ; Signal processing algorithms ; Shape ; Radar antennas},
+  pdf = {https://hal.science/hal-04075772/file/New_Robust_Sparse_Convolutional_Coding_Inversion_Algorithm_for_Ground_Penetrating_Radar_Images.pdf},
+  selected    = {true},
+  url = {https://hal.science/hal-04075772},
+  html = {https://ieeexplore.ieee.org/document/10105622},
+  code         = {https://github.com/Matthieu-Gallet/GPR-robust-inversion},
+  bibtex_show = {True},
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@inproceedings{gallet:hal-03726282,
+  abbr      = {GRETSI},
+  title        = {Nouvel algorithme d'inversion robuste pour le RADAR GPR},
+  author       = {Gallet, Matthieu and Mian, Ammar and Ginolhac, Guillaume and Stelzenmuller, Nickolas},
+  html         = {https://hal.archives-ouvertes.fr/hal-03726282},
+  booktitle    = {GRETSI, XXVIII{\`e}me Colloque Francophone de Traitement du Signal et des Images},
+  address      = {Nancy, France},
+  organization = {{GRETSI}},
+  year         = {2022},
+  month        = {Sep},
+  pdf          = {https://hal.archives-ouvertes.fr/hal-03726282/file/Robust_Inversion_GPR___Gretsi_2022.pdf},
+  hal_id       = {hal-03726282},
+  hal_version  = {v1},
+  selected     = {false},
+  code         = {https://github.com/Matthieu-Gallet/GPR-robust-inversion},
+  abstract     = {Dans ce papier, nous proposons une nouvelle méthode d'inversion dans le but d'améliorer la détection d'objets enfouis. Pour cette détection, on utilise un RADAR GPR (Ground Penetrating Radar) qui émet une onde qui va traverser le sous sol et se réfléchir sur d'éventuels objets enterrés. A cause du mouvement du RADAR la réponse de ces objets a une forme d'hyperbole. L'approche proposée dans ce papier est basée sur un modèle convolutif avec dictionnaire et une matrice rang faible. Le problème d'optimisation utilise une norme d'Huber à la place de la norme classique pour avoir une meilleure robustesse au bruit qui est très présent dans une image GPR. Nous testons notre approche sur un jeu de données réelles fourni par la société Géolithe et montrons l'apport de la norme de Huber par rapport à la norme classique. },
+  bibtex_show  = {True}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{gallet:hal-03726277,
+  abbr        = {IGARSS},
+  title       = {Classification of GPR Signals via Covariance Pooling on CNN Features within a Riemannian Framework},
+  author      = {Gallet, Matthieu and Mian, Ammar and Ginolhac, Guillaume and Stelzenmuller, Nickolas},
+  booktitle   = {International Geoscience and Remote Sensing Symposium (IGARSS)},
+  address     = {Kuala Lampur, Malaysia},
+  year        = {2022},
+  month       = Jul,
+  keywords    = {GPR ; classification ; Convolutional Neural Networks ; Covariance matrix},
+  html        = {https://hal.archives-ouvertes.fr/hal-03726277},
+  pdf         = {https://hal.archives-ouvertes.fr/hal-03726277/file/IGARSS_GPR_2022.pdf},
+  selected    = {true},
+  abstract    = {We consider the problem of classifying Ground Penetrating Radar (GPR) signals by using covariance matrices descriptors computed on convolutional features obtained from Mo-bileNetV2 Convolutional Neural Network (CNN) first layers. This approach allows to leverage the rich data representation obtained from CNNs and the low-dimensionality of secondorder statistics. Then the Riemannian geometry of covariance matrices is leveraged to improve classification rate. The proposed approach allows then to perform automatic classification of buried objects with few labeled data available. We also consider the scenario of an airbone radar and provide results at different elevations. },
+  bibtex_show = {True}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@dataset{gallet_matthieu_2023_8111485,
+  abbr         = {Zenodo},
+  title        = {LSD4WSD : An Open Dataset for Wet Snow Detection with SAR Data and Physical Labelling},
+  author       = {Gallet, Matthieu and Atto, Abdourrahmane and Karbou, Fatima and Trouvé, Emmanuel},
+  year         = {2023},
+  month        = Jul,
+  publisher    = {Zenodo},
+  version      = {1.0.0},
+  doi          = {10.5281/zenodo.8111485},
+  url          = {https://doi.org/10.5281/zenodo.8111485},
+  html         = {https://zenodo.org/record/8111485},
+  selected    = {true},
+  abstract    = {LSD4WSD: Learning SAR Dataset for Wet Snow Detection. The aim of this dataset is to provide a basis for automatic learning to detect wet snow. It is based on Sentinel-1 SAR satellite images acquired between August 2020 and August 2021 over the French Alps. It consists of 487157 samples of size 16 by 16 by 9 for training and 3668 for testing. For each sample, the associated label is obtained using the Crocus physical model.},
+  bibtex_show = {True}
 }

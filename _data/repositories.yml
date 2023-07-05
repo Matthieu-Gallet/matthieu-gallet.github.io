@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Matthieu-Gallet
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Matthieu-Gallet/LISTIC_tools
+  - Matthieu-Gallet/GPR-robust-inversion
+  - Matthieu-Gallet/CNN-RL-Geometric
+  - Matthieu-Gallet/Ensemble_Learning
