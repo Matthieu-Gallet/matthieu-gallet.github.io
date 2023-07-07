@@ -2,7 +2,7 @@ github_users:
   - Matthieu-Gallet
 
 github_repos:
-  - Matthieu-Gallet/LISTIC_tools
   - Matthieu-Gallet/GPR-robust-inversion
   - Matthieu-Gallet/CNN-RL-Geometric
   - Matthieu-Gallet/Ensemble_Learning
+  - Matthieu-Gallet/CNN-WetSnow-CROCUS
