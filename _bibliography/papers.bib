@@ -1,41 +1,19 @@
 ---
 ---
-
-@article{gallet:hal-04075772,
-  abbr      = {TGRS},
-  title = {New Robust Sparse Convolutional Coding Inversion Algorithm for Ground Penetrating Radar Images},
-  author = {Gallet, Matthieu and Mian, Ammar and Ginolhac, Guillaume and Ollila, Esa and Stelzenmuller, Nickolas},
-  abstract    = {In this paper, we propose two algorithms to enhance the interpretability of the hyperbola in B-scans obtained with a Ground Penetrating Radar (GPR). These hyperbolas are the responses of buried objects or cavities. To correctly detect and classify them, a denoising is typically necessary for GPR images as the signal-to-noise ratio is low, and the various interfaces naturally present in the earth have a strong response. Both algorithms are based on a sparse convolutional coding model plus a low rank component. It is solved through an Alternating Direction Method of Multipliers (ADMM) framework. In order to take into account the presence of outliers and the artifacts caused by the acquisition, the second algorithm is based on the Huber norm instead of the classic L2 -norm. These algorithms are tested on a real dataset labeled by geophysicists. The results show the denoising efficiency of this approach, and in particular the robustness of the second algorithm. },
-  journal = {IEEE Transactions on Geoscience and Remote Sensing},
-  year = {2023},
-  doi = {10.1109/TGRS.2023.3268477},
-  keywords = {Ground Penetrating Radar ; Sparse Inversion ; Convolutive Model ; Robust methods ; Dictionaries ; Radar ; Signal to noise ratio ; Radar imaging ; Signal processing algorithms ; Shape ; Radar antennas},
-  pdf = {https://hal.science/hal-04075772/file/New_Robust_Sparse_Convolutional_Coding_Inversion_Algorithm_for_Ground_Penetrating_Radar_Images.pdf},
+@dataset{gallet_matthieu_2023_8111485,
+  abbr        = {Zenodo},
+  title       = {LSD4WSD : An Open Dataset for Wet Snow Detection with SAR Data and Physical Labelling},
+  author      = {Gallet, Matthieu and Atto, Abdourrahmane and Karbou, Fatima and Trouvé, Emmanuel},
+  year        = {2023},
+  month       = Jul,
+  publisher   = {Zenodo},
+  version     = {1.0.0},
+  doi         = {10.5281/zenodo.8111485},
+  url         = {https://doi.org/10.5281/zenodo.8111485},
+  html        = {https://zenodo.org/record/8111485},
   selected    = {true},
-  url = {https://hal.science/hal-04075772},
-  html = {https://ieeexplore.ieee.org/document/10105622},
-  code         = {https://github.com/Matthieu-Gallet/GPR-robust-inversion},
-  bibtex_show = {True},
-
-}
-
-@inproceedings{gallet:hal-03726282,
-  abbr      = {GRETSI},
-  title        = {Nouvel algorithme d'inversion robuste pour le RADAR GPR},
-  author       = {Gallet, Matthieu and Mian, Ammar and Ginolhac, Guillaume and Stelzenmuller, Nickolas},
-  html         = {https://hal.archives-ouvertes.fr/hal-03726282},
-  booktitle    = {GRETSI, XXVIII{\`e}me Colloque Francophone de Traitement du Signal et des Images},
-  address      = {Nancy, France},
-  organization = {{GRETSI}},
-  year         = {2022},
-  month        = {Sep},
-  pdf          = {https://hal.archives-ouvertes.fr/hal-03726282/file/Robust_Inversion_GPR___Gretsi_2022.pdf},
-  hal_id       = {hal-03726282},
-  hal_version  = {v1},
-  selected     = {false},
-  code         = {https://github.com/Matthieu-Gallet/GPR-robust-inversion},
-  abstract     = {Dans ce papier, nous proposons une nouvelle méthode d'inversion dans le but d'améliorer la détection d'objets enfouis. Pour cette détection, on utilise un RADAR GPR (Ground Penetrating Radar) qui émet une onde qui va traverser le sous sol et se réfléchir sur d'éventuels objets enterrés. A cause du mouvement du RADAR la réponse de ces objets a une forme d'hyperbole. L'approche proposée dans ce papier est basée sur un modèle convolutif avec dictionnaire et une matrice rang faible. Le problème d'optimisation utilise une norme d'Huber à la place de la norme classique pour avoir une meilleure robustesse au bruit qui est très présent dans une image GPR. Nous testons notre approche sur un jeu de données réelles fourni par la société Géolithe et montrons l'apport de la norme de Huber par rapport à la norme classique. },
-  bibtex_show  = {True}
+  abstract    = {LSD4WSD: Learning SAR Dataset for Wet Snow Detection. The aim of this dataset is to provide a basis for automatic learning to detect wet snow. It is based on Sentinel-1 SAR satellite images acquired between August 2020 and August 2021 over the French Alps. It consists of 487157 samples of size 16 by 16 by 9 for training and 3668 for testing. For each sample, the associated label is obtained using the Crocus physical model.},
+  bibtex_show = {True}
 }
 
 @inproceedings{gallet:hal-03726277,
@@ -54,20 +32,60 @@
   bibtex_show = {True}
 }
 
+@inproceedings{gallet:hal-03726282,
+  abbr         = {GRETSI},
+  title        = {Nouvel algorithme d'inversion robuste pour le RADAR GPR},
+  author       = {Gallet, Matthieu and Mian, Ammar and Ginolhac, Guillaume and Stelzenmuller, Nickolas},
+  html         = {https://hal.archives-ouvertes.fr/hal-03726282},
+  booktitle    = {GRETSI, XXVIII{\`e}me Colloque Francophone de Traitement du Signal et des Images},
+  address      = {Nancy, France},
+  organization = {{GRETSI}},
+  year         = {2022},
+  month        = {Sep},
+  pdf          = {https://hal.archives-ouvertes.fr/hal-03726282/file/Robust_Inversion_GPR___Gretsi_2022.pdf},
+  hal_id       = {hal-03726282},
+  hal_version  = {v1},
+  selected     = {false},
+  code         = {https://github.com/Matthieu-Gallet/GPR-robust-inversion},
+  abstract     = {Dans ce papier, nous proposons une nouvelle méthode d'inversion dans le but d'améliorer la détection d'objets enfouis. Pour cette détection, on utilise un RADAR GPR (Ground Penetrating Radar) qui émet une onde qui va traverser le sous sol et se réfléchir sur d'éventuels objets enterrés. A cause du mouvement du RADAR la réponse de ces objets a une forme d'hyperbole. L'approche proposée dans ce papier est basée sur un modèle convolutif avec dictionnaire et une matrice rang faible. Le problème d'optimisation utilise une norme d'Huber à la place de la norme classique pour avoir une meilleure robustesse au bruit qui est très présent dans une image GPR. Nous testons notre approche sur un jeu de données réelles fourni par la société Géolithe et montrons l'apport de la norme de Huber par rapport à la norme classique. },
+  bibtex_show  = {True}
+}
 
-
-@dataset{gallet_matthieu_2023_8111485,
-  abbr         = {Zenodo},
-  title        = {LSD4WSD : An Open Dataset for Wet Snow Detection with SAR Data and Physical Labelling},
-  author       = {Gallet, Matthieu and Atto, Abdourrahmane and Karbou, Fatima and Trouvé, Emmanuel},
-  year         = {2023},
-  month        = Jul,
-  publisher    = {Zenodo},
-  version      = {1.0.0},
-  doi          = {10.5281/zenodo.8111485},
-  url          = {https://doi.org/10.5281/zenodo.8111485},
-  html         = {https://zenodo.org/record/8111485},
+@article{gallet:hal-04075772,
+  abbr        = {TGRS},
+  title       = {New Robust Sparse Convolutional Coding Inversion Algorithm for Ground Penetrating Radar Images},
+  author      = {Gallet, Matthieu and Mian, Ammar and Ginolhac, Guillaume and Ollila, Esa and Stelzenmuller, Nickolas},
+  abstract    = {In this paper, we propose two algorithms to enhance the interpretability of the hyperbola in B-scans obtained with a Ground Penetrating Radar (GPR). These hyperbolas are the responses of buried objects or cavities. To correctly detect and classify them, a denoising is typically necessary for GPR images as the signal-to-noise ratio is low, and the various interfaces naturally present in the earth have a strong response. Both algorithms are based on a sparse convolutional coding model plus a low rank component. It is solved through an Alternating Direction Method of Multipliers (ADMM) framework. In order to take into account the presence of outliers and the artifacts caused by the acquisition, the second algorithm is based on the Huber norm instead of the classic L2 -norm. These algorithms are tested on a real dataset labeled by geophysicists. The results show the denoising efficiency of this approach, and in particular the robustness of the second algorithm. },
+  journal     = {IEEE Transactions on Geoscience and Remote Sensing},
+  year        = {2023},
+  doi         = {10.1109/TGRS.2023.3268477},
+  keywords    = {Ground Penetrating Radar ; Sparse Inversion ; Convolutive Model ; Robust methods ; Dictionaries ; Radar ; Signal to noise ratio ; Radar imaging ; Signal processing algorithms ; Shape ; Radar antennas},
+  pdf         = {https://hal.science/hal-04075772/file/New_Robust_Sparse_Convolutional_Coding_Inversion_Algorithm_for_Ground_Penetrating_Radar_Images.pdf},
   selected    = {true},
-  abstract    = {LSD4WSD: Learning SAR Dataset for Wet Snow Detection. The aim of this dataset is to provide a basis for automatic learning to detect wet snow. It is based on Sentinel-1 SAR satellite images acquired between August 2020 and August 2021 over the French Alps. It consists of 487157 samples of size 16 by 16 by 9 for training and 3668 for testing. For each sample, the associated label is obtained using the Crocus physical model.},
+  url         = {https://hal.science/hal-04075772},
+  html        = {https://ieeexplore.ieee.org/document/10105622},
+  code        = {https://github.com/Matthieu-Gallet/GPR-robust-inversion},
+  bibtex_show = {True}
+}
+
+
+
+@inproceedings{gallet:hal-04171432,
+  abbr        = {IGARSS},
+  title       = {{CNN Classification of Wet Snow By Physical Snowpack Model Labeling}},
+  author      = {Gallet, Matthieu and Atto, Abdourrahmane and Trouv{\'e}, Emmanuel and Karbou, Fatima},
+  html         = {https://hal.science/hal-04171432},
+  booktitle   = {{International Geoscience and Remote Sensing Symposium (IGARSS 2023)}},
+  address     = {Pasadena, CA, United States},
+  year        = {2023},
+  month       = Jul,
+  keywords    = {SAR ; Wet Snow ; Classification ; Convolutional Neural Networks},
+  pdf         = {https://hal.science/hal-04171432/file/IGARSS_snow_CNN_2023.pdf},
+  hal_id      = {hal-04171432},
+  hal_version = {v1},
+  selected    = {true},
+  url         = {{https://hal.science/hal-04171432},
+  code        = {https://github.com/Matthieu-Gallet/CNN-WetSnow-CROCUS},
+  abstract = {We propose a new approach for wet snow extent mapping in Synthetic Aperture Radar (SAR) images by using a convolutional neural network (CNN) designed to learn with respect to snowpack outputs from the state-of-the-art snow model Crocus. The CNN was trained to classify the wet snow conditions based on features extracted from the SAR images, using both the VV,VH channel and the ratio between these channels and those of a reference image in summer. One of the key points of this work is the comprehensive comparison we have made between the performance of the CNN method and other advanced statistical methods.We found that the CNN was able to achieve good accuracy in wet snow classification, and giving a complementary vision of the solutions obtained by other machine learning algorithms such as the Random Forest classifier. The results of this study demonstrate the potential of using CNNs and SAR images for wet snow classification and highlight the importance of using physical information model for training machine learning models in snow state identification, a domain where collecting ground truth is intricate due to the complexity of the snowpack moisture measurement systems. }
   bibtex_show = {True}
 }
