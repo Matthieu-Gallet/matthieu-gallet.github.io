@@ -8,13 +8,15 @@
   month       = Jul,
   publisher   = {Zenodo},
   version     = {1.0.0},
-  doi         = {10.5281/zenodo.8111485},
-  url         = {https://doi.org/10.5281/zenodo.8111485},
-  html        = {https://zenodo.org/record/8111485},
+  doi         = {10.5281/zenodo.10046730},
+  url         = {https://doi.org/10.5281/zenodo.10046730},
+  html        = {https://zenodo.org/record/10046730},
   selected    = {true},
   abstract    = {LSD4WSD: Learning SAR Dataset for Wet Snow Detection. The aim of this dataset is to provide a basis for automatic learning to detect wet snow. It is based on Sentinel-1 SAR satellite images acquired between August 2020 and August 2021 over the French Alps. It consists of 487157 samples of size 16 by 16 by 9 for training and 3668 for testing. For each sample, the associated label is obtained using the Crocus physical model.},
   bibtex_show = {True}
 }
+
+
 
 @inproceedings{gallet:hal-03726277,
   abbr        = {IGARSS},
@@ -69,6 +71,27 @@
 }
 
 
+@ARTICLE{10360230,
+  abbr        = {JSTARS},
+  title={Wet Snow Detection From Satellite SAR Images by Machine Learning With Physical Snowpack Model Labeling}, 
+  author={Gallet, Matthieu and Atto, Abdourrahmane and Karbou, Fatima and Trouvé, Emmanuel},
+  abstract={The detection of wet snow by satellite imaging is currently done in an unsupervised way and lacks quantitative evaluation due to the difficulty of collecting ground truths in extreme environments. In this article, we propose to take into account information associated with a physical model to label satellite data for the purpose of supervised learning of snow properties using synthetic aperture radar (SAR) imagery. This dataset is constructed from Sentinel-1 SAR images, augmented with topographic information obtained from a digital elevation model. The labeling of this data is done at the scale of the Northern Alps using the CROCUS physical snow model. Then, we trained, over 13 combinations of labeled dataset, a wide range of machine learning models to quantitatively identify the most relevant learners for the wet snow detection task. The results demonstrate consistency among the different algorithms, with significant improvement observed when incorporating polarimetric combinations and topographic orientation data in the input of the model. The best algorithmic solution trained on this dataset is evaluated by comparing the obtained wet snow map over a validation area in the French massif of the Grandes Rousses with the existing Copernicus products, fractional snow cover, and SAR wet snow. We also compare the temporal results obtained at one meteorological station located in the test area. The results show a better representation of wet snow during the melting period using the supervised learning approach, as well as a reduction in areas classified as wet during the winter season.},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  year={2024},
+  doi={10.1109/JSTARS.2023.3342990},
+  keywords={Snow,Labeling,Satellites,Radar polarimetry,Machine learning,Liquids,Backscatter},
+  pdf         = {https://ieeexplore.ieee.org/ielx7/4609443/4609444/10360230.pdf},
+  selected    = {true},
+  url ={},
+  html        = {https://ieeexplore.ieee.org/document/10360230},
+  code        = { https://github.com/Matthieu-Gallet/ML-WetSnowSAR},
+  bibtex_show = {True}
+  volume={17},
+  number={},
+  pages={2901-2917},
+  month={},
+  ISSN={2151-1535},
+  }
 
 @inproceedings{gallet:hal-04171432,
   abbr        = {IGARSS},
@@ -83,7 +106,7 @@
   pdf         = {https://hal.science/hal-04171432/file/IGARSS_snow_CNN_2023.pdf},
   hal_id      = {hal-04171432},
   hal_version = {v1},
-  selected    = {true},
+  selected    = {false},
   url         = {https://hal.science/hal-04171432},
   code        = {https://github.com/Matthieu-Gallet/CNN-WetSnow-CROCUS},
   abstract    = {We propose a new approach for wet snow extent mapping in Synthetic Aperture Radar (SAR) images by using a convolutional neural network (CNN) designed to learn with respect to snowpack outputs from the state-of-the-art snow model Crocus. The CNN was trained to classify the wet snow conditions based on features extracted from the SAR images, using both the VV,VH channel and the ratio between these channels and those of a reference image in summer. One of the key points of this work is the comprehensive comparison we have made between the performance of the CNN method and other advanced statistical methods.We found that the CNN was able to achieve good accuracy in wet snow classification, and giving a complementary vision of the solutions obtained by other machine learning algorithms such as the Random Forest classifier. The results of this study demonstrate the potential of using CNNs and SAR images for wet snow classification and highlight the importance of using physical information model for training machine learning models in snow state identification, a domain where collecting ground truth is intricate due to the complexity of the snowpack moisture measurement systems. },
