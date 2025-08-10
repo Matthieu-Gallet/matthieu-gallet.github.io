@@ -6,6 +6,7 @@
   URL = {https://theses.hal.science/tel-04968551},
   NUMBER = {2024CHAMA027},
   SCHOOL = {{Universit{\'e} Savoie Mont Blanc}},
+  abstract = {The analysis of the cryosphere is essential due to its socio-economic and environmental importance. It influences freshwater resources, supports the economic development of regions dependent on winter tourism, and plays a significant role in the global energy balance through the albedo effect. Globally, understanding the dynamics of the cryosphere is crucial for addressing current climate issues, as highlighted in the reports of the Intergovernmental Panel on Climate Change (IPCC).The explosion of satellite data in recent years offers opportunities for high spatial and temporal resolution monitoring of mountainous regions, particularly through data acquired by synthetic aperture radars (SAR). These radars allow for the observation of snowy and icy regions regardless of weather conditions and solar illumination. However, analyzing these data remains complex due to the presence of multiplicative noise (speckle) and irreversible geometric distortions, necessitating adapted analytical methods. The use of machine learning methods for SAR data analysis offers promising prospects for classifying snow-covered and glacier surfaces but requires approaches tailored to overcome the challenges related to data complexity and the quantity and quality of annotations.This thesis aims to address these challenges by focusing on several key aspects. Firstly, it identifies how to exploit C-band and X-band SAR data for snow and glacier classification by analyzing temporal behaviors as well as correlations between statistical image features and in situ or model-derived measurements.From this analysis, it proposes the creation of two annotated datasets for the study of the cryosphere and their use in classification tasks. These datasets consist of SAR images acquired by the Sentinel-1 and PAZ satellites, centered on the French Alps and the Mont-Blanc region, and annotated automatically with a snowpack simulation model (CROCUS) for wet snow and manually for glacier types. The creation of these datasets enables the analysis of wet snow detection by a set of supervised machine learning models and the understanding of discriminative features for this task. Given the variability in results and model performances, this thesis proposes an approach for aggregating classification models to improve the robustness of results in the face of inherent radar signal noise and annotation uncertainties, based on fuzzy logic.Finally, it proposes algorithmic solutions for effective and interpretable classification of SAR data, with a frugal approach in terms of parameters and computational time, combining the estimation of a set of probability distributions specific to SAR image features with a neural architecture for combining statistical distances or parameterizable divergences. Consequently, this work demonstrates the ability of machine learning methods to be effectively and interpretable adapted for SAR data analysis for the study of the cryosphere, considering the specifics of the data and annotations, and proposing algorithmic solutions for effective and interpretable classification.},
   YEAR = {2024},
   MONTH = Sep,
   KEYWORDS = {Cryosphere ; Sar ; Machine-Learning ; Satellite imagery ; Cryosph{\`e}re ; Sar ; Apprentissage automatique ; Imagerie satellitaire},
@@ -37,6 +38,19 @@
   issn        = {2151-1535}
 }
 
+@INPROCEEDINGS{10641760,
+  abbr={IGARSS},
+  author={Lin-Kwong-Chon, Christophe and Gallet, Matthieu and Kaushik, Suvrat and Trouvé, Emmanuel},
+  booktitle={IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={Supervised Classification for Analysis of Cryospheric Zones Using SAR Statistical Timeseries}, 
+  year={2024},
+  abstract={This study explores machine learning for classifying X-band Synthetic Aperture Radar (SAR) monovariate time series from four cryospheric zones in the Mont-Blanc massif. We aim to classify ablation zones, accumulation zones, hanging glaciers, and ice aprons using log-cumulants and Dynamic Time Warping Barycentric Averaging. Our approach evaluates distances between time series and estimated reference centroids, employing HH and HV polarimetric channels. We propose an extension to this method by aggregating class membership probabilities from selected polarimetric combinations. Results are compared across polarimetric channels, revealing insights into classification performance.},
+  selected={true},
+  volume={},
+  number={},
+  pages={10298-10301},
+  keywords={Measurement;Image resolution;Time series analysis;Refining;Machine learning;Probability;Glaciers;SAR;Glaciers;Cryospheric zones classification},
+  doi={10.1109/IGARSS53475.2024.10641760}}
 
 @inproceedings{10448227,
   abbr         = {ICASSP},
