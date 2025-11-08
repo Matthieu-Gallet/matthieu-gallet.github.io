@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Student at <a href='https://www.univ-smb.fr/en/'>University of Savoie Mont Blanc</a>
+subtitle: Associate Professor at <a href='https://www.univ-smb.fr/en/'>University of Savoie Mont Blanc</a>
 # subtitle: <a href='https://www.univ-smb.fr/listic/en/'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
