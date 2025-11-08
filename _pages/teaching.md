@@ -16,78 +16,50 @@ List of courses, projects and internships I have been involved in.
 ### Courses
 
 
-<html>
-<head>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 100%;
-            max-width: 800px;
-            margin: 0 auto;
-        }
+### Courses
 
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
+#### Year 2021-2022
 
-        th {
-            background-color: #f2f2f2;
-        }
+| Title | Level | Program | TD | TP | TD.eq |
+|-------|-------|---------|----|----|-------|
+| INFO741 - Embedded Systems | Master 1 | Initial |  | 24 | 16 |
+| EASI741 - Random Signals | Master 1 | Initial |  | 12 | 8 |
+| INFO642 - Signal and Image | Bachelor 3 | Initial |  | 9 | 6 |
+| PROJ641 - Project-Based Learning | Bachelor 3 | Initial | 4 | 7 | 8.67 |
+| **Total** |  |  | 4 | 52 | 38.67 |
 
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
+#### Year 2022-2023
 
-        em {
-            font-style: italic;
-        }
-    </style>
-</head>
-<body>
+| Title | Level | Program | TD | TP | TD.eq |
+|-------|-------|---------|----|----|-------|
+| INFO101 - Algorithms | Bachelor 1 | Initial | 1.5 | 14 | 10.83 |
+| INFO501 - Number Systems and Algorithms | Bachelor 3 | Initial | 10.5 |  | 10.5 |
+| PROJ641 - Project-Based Learning | Bachelor 3 | Initial |  | 0.5 | 0.33 |
+| PROJ841 - Project-Based Learning | Master 1 | Initial | 6 | 4 | 8 |
+| INFO701 - Python Programming (IAE Annecy) | Bachelor 3 | Initial | 10.5 |  | 10.5 |
+| INFO642 - Signal and Image | Bachelor 3 | Initial |  | 9 | 6 |
+| INFO851 - Embedded Systems | Master 1 | Initial |  | 20 | 13.33 |
+| **Total** |  |  | 28.5 | 47.5 | 59.5 |
 
+#### Year 2023-2024
 
-<table>
-    <tr>
-        <td><strong>Image Processing</strong><br />(4th Year Engineer, Digital Systems & Instrumentation Track)</td>
-        <td>12h (<em>Lab</em>)</td>
-    </tr>
-    <tr>
-        <td><strong>Embedded Systems</strong><br />(4th Year Engineer)</td>
-        <td>24h (<em>Lab</em>)</td>
-    </tr>
-    <tr>
-        <td><strong>Signal Processing</strong><br />(3rd Year Engineer)</td>
-        <td>18h (<em>Lab</em>)</td>
-    </tr>
-    <tr>
-        <td><strong>Embedded Systems</strong><br />(4th Year Engineer, Mechatronics Track)</td>
-        <td>20h (<em>Lab</em>)</td>
-    </tr>
-    <tr>
-        <td><strong>Introduction to Programming</strong><br />(1st Year Engineer)</td>
-        <td>16h (<em>Lab</em>)</td>
-    </tr>
-    <tr>
-        <td><strong>Advanced Programming</strong><br />(3rd Year Engineer)</td>
-        <td>10.5h (<em>Tutorial</em>)</td>
-    </tr>
-    <tr>
-        <td><strong>Introduction to Programming</strong><br />(IAE Management 2-4th Year)</td>
-        <td>12h (<em>Tutorial/Lecture</em>)</td>
-    </tr>
-    <tr>
-        <td><strong>Problem/Project-based Learning</strong><br />(3rd-4th Year Engineer)</td>
-        <td>21h (<em>Lab</em>)</td>
-    </tr>
-</table>
-</body>
-</html>
+| Title | Level | Program | TD | TP | TD.eq |
+|-------|-------|---------|----|----|-------|
+| INFO101 - Algorithms | Bachelor 1 | Initial | 9 | 12 | 17 |
+| INFO501 - Number Systems and Algorithms | Bachelor 3 | Initial | 9 |  | 9 |
+| PROJ841 - Project-Based Learning | Master 1 | Initial | 1.5 |  | 1.5 |
+| PROJ943 - Project-Based Learning | Master 2 | Initial | 7.5 | 4 | 9 |
+| INFO851 - Embedded Systems | Master 1 | Initial |  | 20 | 13.33 |
+| INFO941 - Concurrent Programming | Master 2 | Initial |  | 24 | 16 |
+| **Total** |  |  | 27 | 60 | 65.83 |
 
+#### Year 2024-2025
 
-
-
-<br />
+| Title | Level | Program | TD | CM | TD.eq |
+|-------|-------|---------|----|----|-------|
+| EASI844 - Discrete-Time Systems | Master 1 | Initial | 13 | 3 | 17.5 |
+| INFO501 - Number Systems and Algorithms | Bachelor 3 | Initial | 9 |  | 9 |
+| **Total** |  |  | 22 | 3 | 26.5 |
 
 ### Project
 
@@ -100,7 +72,22 @@ List of courses, projects and internships I have been involved in.
 
 ### Internships
 
-- 4th-year engineering education internship: Snow segmentation on webcam images.<br /> 
-[The project on Github](https://github.com/AlexandreProthin/SegmentationNeige/)
-- Bachelor's degree internship (Brazil collaboration): Change detection classification at multiple spatial scales in SAR images. <br />
-[The project on Github](https://github.com/Matthieu-Gallet/WECS_local_classification).
+- Master 1 internship (2024, 4 months): Validation and benchmarking of machine learning methods for the characterization of wet snow by SAR imaging: Application to the Grandes Rousses area.<br />
+  **Summary:** Implementation of a benchmarking of machine learning methods for snow characterization by SAR imaging from the [D7] dataset.
+  - Formatting existing codes for command-line use.
+  - Development of new data labeling methods.
+  - Improvement of resource exploitation (multi-threading) and cluster usage option.
+  - Creation of a website and documentation.<br />
+  **Valorisation:** The developed processing chains have been made available with the creation of a dedicated website.<br />
+  [The project on GitHub](https://github.com/cortesmc/ML-WetSnowSAR_pipeline_stage)
+- 4th-year engineering education internship (2022, 3 months): Proof of concept of snow segmentation in webcam images by deep learning.<br />
+  **Summary:** Implementation of snow segmentation solutions in the context of webcam images with a proof of concept on images provided by CREA.
+  - Realization of annotation of time series on 3 zones: in high mountain clear (>2000m), in medium mountain clear (between 1000m and 2000m) and in medium mountain in forest.
+  - Implementation of deep learning networks dedicated to the segmentation task (U-net), and comparison of the obtained solutions with commonly used segmentation algorithms (thresholding, edge detection, Otsu).<br />
+  [The project on Github](https://github.com/AlexandreProthin/SegmentationNeige/)
+- Bachelor's degree internship (Brazil collaboration, 2023, 3 months): Wavelet Change Detection of Urban Areas in Multi-temporal Satellite Images and Supervised Classification of Change Detection Maps.<br />
+  **Summary:** In collaboration with Brazil (Aluisio Pinheiro, University of Campinas, Pr), improvement of a wavelet-based change detection method for the analysis of time series of satellite images (WECS), and development of a supervised classification method for the obtained change maps.
+  - Processing of two time series of Sentinel-1 satellite images on Mexico and Reunion.
+  - Improvement of the WECS method, by taking into account two scales (global and local) for change detection.
+  - Use of the maps obtained by WECS on Reunion for the supervised classification of detected changes.<br />
+  [The project on Github](https://github.com/Matthieu-Gallet/WECS_local_classification).
