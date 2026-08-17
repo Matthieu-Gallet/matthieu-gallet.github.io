@@ -13,8 +13,11 @@ nav_order: 3
 
 Organize your courses by years, topics, or universities, however you like! -->
 List of courses, projects and internships I have been involved in.
-### Courses
 
+The teaching volume is given in hours, split between tutorial hours (TD) and lab hours (TP). TP hours are converted into TD-equivalent hours (TD. eq) using a 2/3 coefficient.
+
+&#10148; Total teaching volume over the 2021-2025 period: 191h TD-equivalent.<br>
+&#10148; Projected teaching volume for 2025-2026: 178.56h TD-equivalent.
 
 ### Courses
 
@@ -61,6 +64,22 @@ List of courses, projects and internships I have been involved in.
 | INFO501 - Number Systems and Algorithms | Bachelor 3 | Initial | 9 |  | 9 |
 | **Total** |  |  | 22 | 3 | 26.5 |
 
+#### Year 2025-2026
+
+| Title | Level | Program | CM | TD | TP | TD.eq |
+|-------|-------|---------|----|----|----|-------|
+| INFO201 - Operating Systems | Bachelor 1 | Initial |  | 6.0 | 15.0 | 21.00 |
+| INFO501 - Number Systems and Algorithms | Bachelor 3 | Initial |  | 16.0 |  | 16.00 |
+| INFO502 - Databases | Bachelor 3 | Initial |  |  | 24.0 | 24.00 |
+| PROJ631 - Algorithmic Project | Bachelor 3 | Initial |  | 30.0 |  | 30.00 |
+| PROJ632 - Data Science Project | Bachelor 3 | Initial |  | 16.0 |  | 16.00 |
+| DATA731 - Stochastic Modeling | Master 1 | Initial | 3.0 |  | 4.0 | 8.50 |
+| DATA831 - Big Data | Master 1 | Initial |  | 8.0 |  | 8.00 |
+| DATA832 - Machine Learning 1 | Master 1 | Initial | 3.0 | 7.0 |  | 11.50 |
+| DATA931 - Deep Learning | Master 2 | Initial | 6.0 | 6.0 | 8.0 | 23.00 |
+| ISOC931 - Introduction to Research | Master 2 | Initial | 3.0 | 9.0 | 18.0 | 31.50 |
+| **Total** |  |  | 15.0 | 98.0 | 69.0 | 189.50 |
+
 ### Project
 
 - Problem/Project-based Learning (APP): Proposal and supervision of a student project (3rd-4th year of engineering education) in collaboration with [CREA](https://creamontblanc.org/en) (Altitude Ecosystem Research Center).
@@ -84,10 +103,10 @@ List of courses, projects and internships I have been involved in.
   **Summary:** Implementation of snow segmentation solutions in the context of webcam images with a proof of concept on images provided by CREA.
   - Realization of annotation of time series on 3 zones: in high mountain clear (>2000m), in medium mountain clear (between 1000m and 2000m) and in medium mountain in forest.
   - Implementation of deep learning networks dedicated to the segmentation task (U-net), and comparison of the obtained solutions with commonly used segmentation algorithms (thresholding, edge detection, Otsu).<br />
-  [The project on Github](https://github.com/AlexandreProthin/SegmentationNeige/)
+  [The project on GitHub](https://github.com/AlexandreProthin/SegmentationNeige/)
 - Bachelor's degree internship (Brazil collaboration, 2023, 3 months): Wavelet Change Detection of Urban Areas in Multi-temporal Satellite Images and Supervised Classification of Change Detection Maps.<br />
   **Summary:** In collaboration with Brazil (Aluisio Pinheiro, University of Campinas, Pr), improvement of a wavelet-based change detection method for the analysis of time series of satellite images (WECS), and development of a supervised classification method for the obtained change maps.
   - Processing of two time series of Sentinel-1 satellite images on Mexico and Reunion.
   - Improvement of the WECS method, by taking into account two scales (global and local) for change detection.
   - Use of the maps obtained by WECS on Reunion for the supervised classification of detected changes.<br />
-  [The project on Github](https://github.com/Matthieu-Gallet/WECS_local_classification).
+  [The project on GitHub](https://github.com/Matthieu-Gallet/WECS_local_classification).

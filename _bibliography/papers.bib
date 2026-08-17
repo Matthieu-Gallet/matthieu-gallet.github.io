@@ -181,7 +181,7 @@
 
 @inproceedings{kaushik:hal-04180662,
   abbr        = {IGARSS},
-  title       = {{Temporal Evolution of X and C Band SAR Backscattering in theMont-Blanc Massif}},
+  title       = {{Temporal Evolution of X and C Band SAR Backscattering in the Mont-Blanc Massif}},
   author      = {Kaushik, Suvrat and Gallet, Matthieu and Yan, Yajing and Atto, Abdourrahmane and Ravanel, Ludovic and Trouv{\'e}, Emmanuel},
   html        = {https://hal.science/hal-04180662},
   booktitle   = {{International Geoscience and Remote Sensing Symposium (IGARSS 2023)}},
@@ -194,4 +194,67 @@
   hal_version = {v1},
   abstract    = { In this paper, two SAR image time series acquired by PAZ and Sentinel-1 satellites in 2020 (29 and 60 images respectively) are used to investigate surface changes of different ice/snow-covered areas in the Mont-Blanc massif. The evolution of the backscatter coefficient and several statistical parameters in both X and C band SAR images is analyzed on ice aprons, on valley glacier accumulation and ablation areas, and on ice-free areas. Dry and wet snow changes are observed and correlated with meteorological data (temperature at 4 different elevations and snow height) acquired by a weather station.},
   bibtex_show = {True}
+}
+
+@article{11610870,
+  abbr        = {JSTARS},
+  title       = {{CPAZMaL}: A New Dataset of X-Band SAR Time Series in the French Alps for Machine Learning},
+  author      = {Gallet, Matthieu and Kaushik, Suvrat and Lin-Kwong-Chon, Christophe and Ravanel, Ludovic and Trouvé, Emmanuel},
+  journal     = {IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
+  year        = {2026},
+  volume      = {19},
+  pages       = {23685-23694},
+  doi         = {10.1109/JSTARS.2026.3713622},
+  keywords    = {Glaciers ; Machine learning ; Polarization ; Synthetic aperture radar ; Cryosphere ; Dataset ; Mont-Blanc massif ; SAR},
+  html        = {https://doi.org/10.1109/JSTARS.2026.3713622},
+  selected    = {true},
+  bibtex_show = {true}
+}
+
+@inproceedings{10.1007/978-3-032-31397-3_43,
+  abbr        = {ICPR},
+  title       = {Aggregation of Ensemble of Classifiers with Fuzzy Learning: Application for Land Cover Classification on {SAR} Images},
+  author      = {Gallet, Matthieu and Atto, Abdourrahmane and Karbou, Fatima and Trouvé, Emmanuel},
+  booktitle   = {Pattern Recognition},
+  address     = {Cham},
+  publisher   = {Springer Nature Switzerland},
+  year        = {2027},
+  pages       = {651--665},
+  isbn        = {978-3-032-31397-3},
+  abstract    = {This paper presents a new aggregation framework based on learnable fuzzy operators for ensembles of classifiers of different natures. This framework is illustrated on land cover classification in mountainous environments using Synthetic Aperture Radar (SAR) imagery. This work is motivated by the complexity of labeling SAR data and the will of a optimal strategy to aggregate different classifiers, each one having its own strengths and weaknesses. One of the original features of this study is the novel application of fuzzy theory and its associated aggregators to a framework for classifying various surface types in mountain regions using SAR images and a forest of classifiers. This new approach involved adapting the Choquet integral to allow supervised learning, enabling us to learn the parameters of the constituent fuzzy measures. We propose a two-step framework for learning the aggregation parameters using probability estimates of a ensemble of classifiers and compare this approach to a standard aggregation method in machine learning: logistic regression. Through experiments on a SAR image dataset, we show that the proposed method outperforms standard methods, especially in the presence of noisy data, regardless of the number of training data.},
+  selected    = {true},
+  bibtex_show = {true}
+}
+
+@article{GALLET2027110793,
+  abbr        = {Signal Processing},
+  title       = {On batch normalization for {SPDnet}},
+  author      = {Gallet, Matthieu and Mian, Ammar and Bouchard, Florent and Ginolhac, Guillaume},
+  journal     = {Signal Processing},
+  volume      = {250},
+  pages       = {110793},
+  year        = {2027},
+  issn        = {0165-1684},
+  doi         = {https://doi.org/10.1016/j.sigpro.2026.110793},
+  html        = {https://www.sciencedirect.com/science/article/pii/S0165168426003063},
+  keywords    = {SPDnet, Batch normalization, Riemannian geometry, Covariance matrices, Deep learning},
+  abstract    = {This paper deals with batch normalization for SPDnet, a deep learning architecture specifically designed to handle covariance matrices. Current SPDnet batch normalization relies on geometric means, which require expensive iterative computations and lacks formal backpropagation derivations. These limitations are addressed through two contributions: (i) formal backpropagation derivation for SPDnet batch normalization, and (ii) computationally efficient closed-form alternatives to the geometric mean: log-Euclidean, arithmetic and harmonic means, and the geometric mean of arithmetic and harmonic means. Simulation results on the batch normalization layer with different means demonstrate significant reductions in memory consumption and comparable training time by avoiding automatic differentiation, demonstrating the effectiveness of our approach. Numerical experiments on three real datasets show that simpler means can outperform the geometric mean with up to 5% accuracy improvements while reducing training time by a factor of 5.},
+  selected    = {true},
+  bibtex_show = {true}
+}
+
+@unpublished{gallet:hal-05529546,
+  abbr        = {EUSIPCO},
+  title       = {{ARMAGNAC}: A New Parametric Batch Normalization Layer for {SPDNet} Architecture},
+  author      = {Gallet, Matthieu and Bouchard, Florent and Mian, Ammar and Ginolhac, Guillaume},
+  note        = {Submitted to EUSIPCO 2026},
+  year        = {2026},
+  month       = Feb,
+  keywords    = {SPDnet ; batch normalization ; deep learning ; covariance matrices ; metric learning},
+  pdf         = {https://hal.science/hal-05529546v1/file/Eusipco26_BN_pub.pdf},
+  hal_id      = {hal-05529546},
+  hal_version = {v1},
+  html        = {https://hal.science/hal-05529546},
+  selected    = {true},
+  bibtex_show = {true}
 }
