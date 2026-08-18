@@ -72,7 +72,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: Matthieu-Gallet # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
-linkedin_username: matthieu-gallet-72127b209 # your LinkedIn user name
+hal_url: https://hal.science/search/index/q/*/authIdHal_s/matthieugallet # your HAL author page
 scholar_userid: # your Google Scholar ID
 orcid_id: 0009-0005-3094-0532 # your ORCID ID
 medium_username: # your Medium username

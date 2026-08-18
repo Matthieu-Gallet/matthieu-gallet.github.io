@@ -246,6 +246,17 @@ blockquote {
           color: var(--global-theme-color);
         }
       }
+
+      img.hal-icon {
+        height: 0.72em;
+        width: auto;
+        vertical-align: -0.08em;
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover img.hal-icon {
+        opacity: 0.75;
+      }
     }
   }
 }
@@ -319,6 +330,17 @@ blockquote {
         i::before {
           color: var(--global-theme-color);
         }
+      }
+
+      img.hal-icon {
+        height: 0.72em;
+        width: auto;
+        vertical-align: -0.08em;
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover img.hal-icon {
+        opacity: 0.75;
       }
     }
   }

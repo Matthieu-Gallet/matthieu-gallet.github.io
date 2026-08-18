@@ -34,8 +34,8 @@
             {%- if site.github_username -%}
             <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
             {% endif %}
-            {%- if site.linkedin_username -%}
-            <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            {%- if site.hal_url -%}
+            <a href="{{ site.hal_url }}" title="HAL"><img src="{{ '/assets/img/hal-icon.png' | relative_url }}" alt="HAL" class="hal-icon"></a>
             {% endif %}
             {%- if site.twitter_username -%}
             <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter"><i class="fab fa-twitter"></i></a>
