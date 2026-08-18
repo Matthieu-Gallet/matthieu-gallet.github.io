@@ -1,10 +1,10 @@
 ---
 layout: page
 title: APPALOOSA
-description: APPALOOSA explores self-supervised representation learning for Synthetic Aperture Radar (SAR) time series. Classical pretext tasks rely on Euclidean or Gaussian assumptions that poorly capture the multiplicative speckle noise and heavy-tailed statistics of SAR data. The project integrates robust similarity measures between non-Gaussian distributions (Kullback-Leibler, Rényi, Wasserstein) into differentiable, temporally-aligned cost functions, extended to multivariate polarimetric data. The resulting representations are validated on simulated, Sentinel-1, PAZ and InSAR SAR time series for classification and segmentation tasks, in a joint project between LISTIC and ICube laboratories.
+description: APPALOOSA explores self-supervised representation learning for SAR time series, integrating robust similarity measures between non-Gaussian distributions into differentiable, temporally-aligned cost functions. Validated on Sentinel-1, PAZ and InSAR data for classification and segmentation, in a joint project between LISTIC and ICube.
 img: assets/img/appaloosa-project.png
 importance: 1
-category: Projets portés
+category: Led projects
 ---
 
 **APPALOOSA** — *ApPrentissage de rePrésentAtions par simiLarité rObuste avec a-priOri StAtistiques* — is an exploratory project funded by the **GDR ISIS** (2026 call for exploratory projects), carried out jointly by the **LISTIC** laboratory (Université Savoie Mont Blanc) and **ICube** (Université de Strasbourg).
@@ -26,7 +26,7 @@ The approaches will be validated on complementary SAR datasets — simulated dat
 ### Partners
 
 - **LISTIC**, Université Savoie Mont Blanc — Matthieu Gallet, Yassine Mhiri
-- **ICube**, Université de Strasbourg — Antoine Bralet (project coordinator)
+- **ICube**, Université de Strasbourg — Antoine Bralet
 
 ### Timeline
 

@@ -5,7 +5,7 @@ permalink: /projects/
 description: Projects I lead or take part in.
 nav: true
 nav_order: 2
-display_categories: [Projets portés, Projets auxquels je participe]
+display_categories: [Led projects, Projets auxquels je participe]
 horizontal: false
 ---
 
