@@ -9,8 +9,8 @@ profile:
   align: right
   image: citations.jpeg
   image_cicular: true # crops the image to make it circular
-  address: >
-    <p><em>Illustration by Mordillo</em></p>
+  # address: >
+  #   <p><em>Illustration by Mordillo</em></p>
 
 news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -22,11 +22,12 @@ Write your biography here. Tell the world about yourself. Link to your favorite 
 Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-Since October 2025, I am Associate Professor at the [University of Savoie Mont Blanc](https://www.univ-smb.fr/en/), LISTIC laboratory, teaching in the IDU (Informatics, Data and Usage) master's program (machine learning, deep learning, databases). My research focuses on frugal machine learning frameworks, with an application to the remote sensing domain.
+Since October 2025, I am Associate Professor at the [University of Savoie Mont Blanc](https://www.univ-smb.fr/en/), LISTIC laboratory, teaching in the IDU (Informatics, Data and Usage) master's program (machine learning, deep learning, databases). My research focuses on machine learning frameworks mainly on SAR data, constrained by statistical and geometric priors.
+I apply my research to the cryosphere, and more generally to remote sensing applications. 
 
 Between December 2024 and September 2025, I was a Research Engineer at [CREA](https://creamontblanc.org/fr/) (Chamonix), developing vegetation-analysis pipelines from Lidar and optical data, deep learning for camera-trap and acoustic sensor data, and deploying the Mont Blanc massif's weather-station and camera-trap network.
 
-Since September 2024, I am a PhD student at [LISTIC](https://www.univ-smb.fr/listic/en/), University of Savoie Mont Blanc, supervised by [Abdourrahmane Atto](https://www.univ-smb.fr/listic/en/presentation_listic/membres/enseignants-chercheurs/abdourrahmane-atto/), [Fatima Karbou](https://www.umr-cnrm.fr/spip.php?article380) and [Emmanuel Trouvé](https://www.univ-smb.fr/listic/en/presentation_listic/membres/enseignants-chercheurs/emmanuel-trouve/).
+Since September 2024, I completed my PhD at [LISTIC](https://www.univ-smb.fr/listic/en/), University of Savoie Mont Blanc, supervised by [Abdourrahmane Atto](https://www.univ-smb.fr/listic/en/presentation_listic/membres/enseignants-chercheurs/abdourrahmane-atto/), [Fatima Karbou](https://www.umr-cnrm.fr/spip.php?article380) and [Emmanuel Trouvé](https://www.univ-smb.fr/listic/en/presentation_listic/membres/enseignants-chercheurs/emmanuel-trouve/).
 
 My research sits at the crossroads of theory and practice: developing fast, robust and frugal algorithms for large-scale remote sensing data (time series, wide-footprint imagery), mainly applied to RADAR data (SAR and GPR).
 
